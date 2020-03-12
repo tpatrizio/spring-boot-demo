@@ -1,0 +1,31 @@
+[[todos_find_all_success]]
+==== Successful call
+When making a successfull call to this API endpoint, the following request parameters and body can be expected.
+
+[[todos_find_all_success_request]]
+===== Request
+include::{snippets}/find-all-should-return-list-of-todos/http-request.adoc[]
+
+[[todos_find_all_success_request_parameters]]
+====== Request parameters
+include::{snippets}/find-all-should-return-list-of-todos/request-parameters.adoc[]
+
+[[todos_find_all_success_response]]
+===== Response
+include::{snippets}/find-all-should-return-list-of-todos/http-response.adoc[]
+
+[[todos_find_all_success_response_headers]]
+====== Response headers
+include::{snippets}/find-all-should-return-list-of-todos/response-headers.adoc[]
+
+[[todos_find_all_success_response_body]]
+====== Response body
+include::{snippets}/find-all-should-return-list-of-todos/response-fields.adoc[]
+
+[[todos_find_all_success_curl]]
+===== cURL
+include::{snippets}/find-all-should-return-list-of-todos/curl-request.adoc[]
+
+[[todos_find_all_success_httpie]]
+===== HTTPie
+include::{snippets}/find-all-should-return-list-of-todos/httpie-request.adoc[]

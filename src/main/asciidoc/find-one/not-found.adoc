@@ -1,0 +1,21 @@
+[[todos_find_one_not_found]]
+==== Todo not found
+When a todo with the given identifier isn't found, a **404 Not Found** is provided, with a different response containing an error message.
+
+[[todos_find_one_not_found_request]]
+===== Request
+The structure of the request is similar to a successful call (see <<todos_find_one_success_request>>), but using an identifier that is not known:
+
+include::{snippets}/find-one-should-return-error-if-not-found/http-request.adoc[]
+
+[[todos_find_one_not_found_response]]
+===== Response
+include::{snippets}/find-one-should-return-error-if-not-found/http-response.adoc[]
+
+[[todos_find_one_not_found_response_body]]
+====== Response body
+include::{snippets}/find-one-should-return-error-if-not-found/response-fields.adoc[]
+
+[[todos_find_one_not_found_curl]]
+===== cURL
+include::{snippets}/find-one-should-return-error-if-not-found/curl-request.adoc[]

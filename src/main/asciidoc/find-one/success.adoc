@@ -1,0 +1,23 @@
+[[todos_find_one_success]]
+==== Successful call
+When making a successfull call to this API endpoint, the following request parameters and body can be expected.
+
+[[todos_find_one_success_request]]
+===== Request
+include::{snippets}/find-one-should-return-todo/http-request.adoc[]
+
+[[todos_find_one_success_path_parameters]]
+====== Request parameters
+include::{snippets}/find-one-should-return-todo/path-parameters.adoc[]
+
+[[todos_find_one_success_response]]
+===== Response
+include::{snippets}/find-one-should-return-todo/http-response.adoc[]
+
+[[todos_find_one_success_response_body]]
+====== Response body
+include::{snippets}/find-one-should-return-todo/response-fields.adoc[]
+
+[[todos_find_one_success_curl]]
+===== cURL
+include::{snippets}/find-one-should-return-todo/curl-request.adoc[]

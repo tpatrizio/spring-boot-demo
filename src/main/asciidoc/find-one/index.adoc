@@ -1,0 +1,5 @@
+[[todos_find_one]]
+=== Find one todo
+
+include::success.adoc[]
+include::not-found.adoc[]
