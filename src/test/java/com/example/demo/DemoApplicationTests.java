@@ -25,11 +25,13 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
+import com.example.demo.controllers.TodoController;
 import com.example.demo.models.Todo;
 import com.example.demo.services.TodoNotFoundException;
 import com.example.demo.services.TodoService;
 import com.google.common.collect.Lists;
 
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -49,12 +51,14 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
+import io.restassured.module.mockmvc.RestAssuredMockMvc;
+
 /**
  * ApiDocumentation
  */
 @SpringBootTest
 @ExtendWith({ RestDocumentationExtension.class, SpringExtension.class })
-public class TodoApplicationTests {
+public class DemoApplicationTests {
 
     MockMvc mockMvc;
  
